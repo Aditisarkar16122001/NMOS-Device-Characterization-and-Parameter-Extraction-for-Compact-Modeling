@@ -115,9 +115,10 @@ $g_{ds} = \frac{dI_D}{V_{DS}} = 1.01674231701e-05 $S
 ### $\lambda$ Extraction:
 $\lambda = \frac{g_{ds}}{I_D} = 0.0221 V^{-1}$
 
+------------
 ### Output Resistance
 
-$r_o = \frac{1}{g_{ds}} = 
+$r_o = \frac{1}{g_{ds}} = 98.7 K\ohm$
 
 
 ### DIBL Calculation

@@ -62,6 +62,8 @@ This project focuses on NMOS transistor characterization and compact modeling us
 - For $V_{ds} = 5V$
 ![sqrtID vs VGS](https://github.com/Aditisarkar16122001/NMOS-Device-Characterization-and-Parameter-Extraction-for-Compact-Modeling/blob/main/TC(Vds%3D5V).png)
 
+-For $V_{ds} = 0.1V$
+![sqrtID vs VGS](https://github.com/Aditisarkar16122001/NMOS-Device-Characterization-and-Parameter-Extraction-for-Compact-Modeling/blob/main/TC(Vds%3D0.1V).png)
 ### Subthreshold Slope
 ![Subthreshold](graphs/subthreshold_slope.png)
 

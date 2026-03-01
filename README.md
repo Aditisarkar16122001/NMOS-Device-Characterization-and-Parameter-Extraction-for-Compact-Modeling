@@ -88,11 +88,12 @@ Taking the most linear region near threshold: (For VDS=5V)
 
 
 Then , $m = \frac{0.02141756}{0.01196101 }= 0.0189131 \frac{\sqrt{\mu A}}{V}$
-$V_{TH} = V_{GS} - \frac{sqrt{I_d}}{m}  = 
-
+$V_{TH} = V_{GS} - \frac{sqrt{I_d}}{m}  = 1.86V$
+1.86V is very near to 2V.
+-----
 ### gm Extraction
-$g_m = \frac{dI_D}{dV_{GS}}$ at V
-
+$g_m = \frac{dI_D}{dV_{GS}}$ at $V_{GS}=3V$
+![gm]
 
 ### Output Resistance
 \[

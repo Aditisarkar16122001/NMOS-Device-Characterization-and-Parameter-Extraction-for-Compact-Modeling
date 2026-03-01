@@ -49,25 +49,27 @@ This project focuses on NMOS transistor characterization and compact modeling us
 
 ---
 
-##  Key Graphs
+#  Key Graphs
 
-### ID vs VDS
+## ID vs VDS
 ![Id-Vds](https://github.com/Aditisarkar16122001/NMOS-Device-Characterization-and-Parameter-Extraction-for-Compact-Modeling/blob/main/Id-Vds.png)
 *Figure 2: ID vs VDS Characteristics*
 - Here plotting of ID vs VDS is done for VGS = 1V , 2V , 3V , 4V , 5V.
 - As Threshold Voltage is 2V as specified in model, we get cutoff region for $V_{GS}<V_{th}$ , and the device gets on for $V_{GS} > V_{th}$. Then for $V_{DS}>(V_{GS}-V_{TH})$ we have the saturation region. 
-
-### ID vs VGS ( For VDS = 5V )
+----
+## ID vs VGS ( For VDS = 5V )
 ![Id-Vgs(Vds=5V)](https://github.com/Aditisarkar16122001/NMOS-Device-Characterization-and-Parameter-Extraction-for-Compact-Modeling/blob/main/Id-Vgs(Vds%3D5V).png)
 *Figure 3: ID vs VGS Characteristics for VGS=5V*
-### √ID vs VGS (Threshold Extraction)
+---
+## √ID vs VGS (Threshold Extraction)
 - For $V_{ds} = 5V$
 ![sqrtID vs VGS](https://github.com/Aditisarkar16122001/NMOS-Device-Characterization-and-Parameter-Extraction-for-Compact-Modeling/blob/main/TC(Vds%3D5V).png)
 *Figure 4: $sqrt{I_D}$ vs VGS Characteristics for VGS=5V*
 - For $V_{ds} = 0.1V$
 ![sqrtID vs VGS](https://github.com/Aditisarkar16122001/NMOS-Device-Characterization-and-Parameter-Extraction-for-Compact-Modeling/blob/main/TC(Vds%3D0.1V).png)
 *Figure 5: $sqrt{I_D}$ vs VGS Characteristics for VGS=0.1V*
-### Subthreshold Slope
+----
+## Subthreshold Slope
 ![Subthreshold](https://github.com/Aditisarkar16122001/NMOS-Device-Characterization-and-Parameter-Extraction-for-Compact-Modeling/blob/main/log(Id).png)
 *Figure 3: log(ID) vs VGS Graph*
 ---

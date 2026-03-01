@@ -107,7 +107,13 @@ From Id vs VGS graph:
 - --------
 
 ### gds Extraction:
-$g_{ds} = \frac{dI_D}{V_{DS}} = 1.01674231701e-05 micro simense$
+$g_{ds} = \frac{dI_D}{V_{DS}} = 1.01674231701e-05 $S
+![gds](https://github.com/Aditisarkar16122001/NMOS-Device-Characterization-and-Parameter-Extraction-for-Compact-Modeling/blob/main/gds.png)
+
+--------
+
+### $\lambda$ Extraction:
+$\lambda = \frac{g_{ds}}{I_D} = 0.0221 V^{-1}$
 
 ### Output Resistance
 

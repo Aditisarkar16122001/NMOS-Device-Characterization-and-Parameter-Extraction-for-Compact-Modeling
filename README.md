@@ -31,7 +31,7 @@ This project focuses on NMOS transistor characterization and compact modeling us
 ---
 
 ## Schematic in LTSpice:
-![Schematic(2)]([https://github.com/Aditisarkar16122001/NMOS-Device-Characterization-and-Parameter-Extraction-for-Compact-Modeling/blob/main/Schematic.png](https://github.com/Aditisarkar16122001/NMOS-Device-Characterization-and-Parameter-Extraction-for-Compact-Modeling/blob/main/Schematic%20(2).png))
+![Schematic(2)](https://github.com/Aditisarkar16122001/NMOS-Device-Characterization-and-Parameter-Extraction-for-Compact-Modeling/blob/main/Schematic%20(2).png)
 ------------------
 ##  Extracted Parameters
 

@@ -87,18 +87,32 @@ Taking the most linear region near threshold: (For VDS=5V)
 | 3.0 | 0.02141756 |
 
 
-Then , $m = \frac{0.02141756}{0.01196101 }= 0.0189131 \frac{\sqrt{\mu A}}{V}$
-$V_{TH} = V_{GS} - \frac{sqrt{I_d}}{m}  = 1.86V$
-1.86V is very near to 2V.
+- Then , $m = \frac{0.02141756}{0.01196101 }= 0.0189131 \frac{\sqrt{\mu A}}{V}$
+- $V_{TH} = V_{GS} - \frac{sqrt{I_d}}{m}  = 1.86V$
+- 1.86V is very near to 2V.
 -----
 ### gm Extraction
-$g_m = \frac{dI_D}{dV_{GS}}$ at $V_{GS}=3V$
-![gm]
+- $g_m = \frac{dI_D}{dV_{GS}}$ at $V_{GS}=3V$ is $g_m = 0.000709630839992S from simulation
+![gm](https://github.com/Aditisarkar16122001/NMOS-Device-Characterization-and-Parameter-Extraction-for-Compact-Modeling/blob/main/gm.png)
+- from theory, $g_m = \frac{2I_D}{V_{OV}} = 0.0009174234S$
+- The simulated value is reduced due to : Mobility Degradation(THETA) , Short Channel Effect(DELTA) , Velocity Saturation(VMAX).
+- ----
+
+### Subthreshold Slope:
+From Id vs VGS graph:
+- $S = \frac{dV_{GS}}{d(log(I_{d}} (mV/Decade)$
+- At 300 K it's value is 60mV/Decade.
+- Choose $V_{GS} = 1.5V to 1.8V$
+- S = 122mV/Decade which is not equal to 60mV/Decade due to tap and bulk effects.
+- --------
+
+### gds Extraction:
+$g_{ds} = \frac{dI_D}{V_{DS}} = 1.01674231701e-05 micro simense$
 
 ### Output Resistance
-\[
-r_o = \frac{1}{g_{ds}}
-\]
+
+$r_o = \frac{1}{g_{ds}} = 
+
 
 ### DIBL Calculation
 \[

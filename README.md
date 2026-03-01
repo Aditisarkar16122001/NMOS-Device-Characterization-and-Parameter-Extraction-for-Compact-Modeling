@@ -122,12 +122,12 @@ $g_{ds} = \frac{dI_D}{V_{DS}} = 1.01674231701e-05 $S
 
 $r_o = \frac{1}{g_{ds}} = 98.7 K\ohm$
 
-
+-------------
 ### DIBL Calculation
 
 - $DIBL = \frac{\Delta V_{TH}}{\Delta V_{DS}}$
 - Extracted value of $V_{th}$ for $V_{DS} = 0.1V$ as did for $V_{DS} = 5V$
-- $V_{th} @ V_{DS}=5V is 1.86V, and $V_{th} @ V_{DS}=0.1V is 1.95V
+- $V_{th} at V_{DS}=5V is 1.86V, and $V_{th} at V_{DS}=0.1V is 1.95V
 - DIBL = 30 mV/V
 
 

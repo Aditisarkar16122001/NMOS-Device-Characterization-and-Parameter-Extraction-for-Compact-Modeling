@@ -73,8 +73,8 @@ This project focuses on NMOS transistor characterization and compact modeling us
 ![Subthreshold](https://github.com/Aditisarkar16122001/NMOS-Device-Characterization-and-Parameter-Extraction-for-Compact-Modeling/blob/main/log(Id).png)
 *Figure 3: log(ID) vs VGS Graph*
 ---
-
-##  Methodology
+----
+#  Methodology
 
 ### Threshold Voltage Extraction
 Using linear extrapolation from √ID vs VGS plot.
@@ -100,7 +100,7 @@ Taking the most linear region near threshold: (For VDS=5V)
 
 ### Subthreshold Slope:
 From Id vs VGS graph:
-- $S = \frac{dV_{GS}}{d(log(I_{d}} (mV/Decade)$
+- $S = \frac{dV_{GS}}{d(log(I_{d}))} (mV/Decade)$
 - At 300 K it's value is 60mV/Decade.
 - Choose $V_{GS} = 1.5V to 1.8V$
 - S = 122mV/Decade which is not equal to 60mV/Decade due to tap and bulk effects.

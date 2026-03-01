@@ -55,6 +55,9 @@ This project focuses on NMOS transistor characterization and compact modeling us
 - Here plotting of ID vs VDS is done for VGS = 1V , 2V , 3V , 4V , 5V.
 - As Threshold Voltage is 2V as specified in model, we get cutoff region for $V_{GS}<V_{th}$ , and the device gets on for $V_{GS} > V_{th}$. Then for $V_{DS}>(V_{GS}-V_{TH})$ we have the saturation region. 
 
+### ID vs VGS ( For VDS = 5V )
+![Id-Vgs(Vds=5V)](https://github.com/Aditisarkar16122001/NMOS-Device-Characterization-and-Parameter-Extraction-for-Compact-Modeling/blob/main/Id-Vgs(Vds%3D5V).png)
+
 ### √ID vs VGS (Threshold Extraction)
 ![sqrtID vs VGS](graphs/sqrt_id_vs_vgs.png)
 

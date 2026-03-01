@@ -79,10 +79,16 @@ This project focuses on NMOS transistor characterization and compact modeling us
 ### Threshold Voltage Extraction
 Using linear extrapolation from √ID vs VGS plot.
 
+$V_{GS}(V)$  | $sqrt{I_d}(sqrt{A}$
+-----
+2.5 | 0.01196101
+---
+3.0 | 0.02141756
+
+
 ### gm Extraction
-\[
-g_m = \frac{dI_D}{dV_{GS}}
-\]
+$g_m = \frac{dI_D}{dV_{GS}}$ at V
+
 
 ### Output Resistance
 \[

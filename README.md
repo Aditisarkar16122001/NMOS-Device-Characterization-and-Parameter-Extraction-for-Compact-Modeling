@@ -59,7 +59,8 @@ This project focuses on NMOS transistor characterization and compact modeling us
 ![Id-Vgs(Vds=5V)](https://github.com/Aditisarkar16122001/NMOS-Device-Characterization-and-Parameter-Extraction-for-Compact-Modeling/blob/main/Id-Vgs(Vds%3D5V).png)
 
 ### √ID vs VGS (Threshold Extraction)
-![sqrtID vs VGS](graphs/sqrt_id_vs_vgs.png)
+- For $V_{ds} = 5V$
+![sqrtID vs VGS](https://github.com/Aditisarkar16122001/NMOS-Device-Characterization-and-Parameter-Extraction-for-Compact-Modeling/blob/main/TC(Vds%3D5V).png)
 
 ### Subthreshold Slope
 ![Subthreshold](graphs/subthreshold_slope.png)

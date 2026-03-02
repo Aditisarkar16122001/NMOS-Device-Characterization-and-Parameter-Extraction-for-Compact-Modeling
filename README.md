@@ -81,14 +81,14 @@ Using linear extrapolation from √ID vs VGS plot.
 
 After Export data as text we get:
 Taking the most linear region near threshold: (For VDS=5V)
-| $V_{GS}(V)$ | $\sqrt{I_d}$$(\sqrt{A})$ |
+| $V_{GS}(V)$ | $\sqrt{I_d}($\sqrt{A}$) |
 |----------|--------|
 | 2.5 | 0.01196101 |
 | 3.0 | 0.02141756 |
 
 
 - Then , $m = \frac{0.02141756}{0.01196101 }= 0.0189131 \frac{\sqrt{\mu A}}{V}$
-- $V_{TH} = V_{GS} - \frac{sqrt{I_d}}{m}  = 1.86V$
+- $V_{TH} = V_{GS} - \frac{\sqrt{I_d}}{m}  = 1.86V$
 - 1.86V is very near to 2V.
 -----
 ### gm Extraction

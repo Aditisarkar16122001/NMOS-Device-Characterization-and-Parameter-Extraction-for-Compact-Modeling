@@ -138,7 +138,6 @@ $r_o = \frac{1}{g_{ds}} = 98.7 K\ohm$
 
 - LTspice
 - MOS Level 3 Model
-- Manual data extraction
 
 ---
 

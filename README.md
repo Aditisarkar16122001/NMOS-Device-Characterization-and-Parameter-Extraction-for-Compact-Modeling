@@ -1,5 +1,5 @@
 
-# NMOS Compact Modeling & Parameter Extraction using LTspice
+# NMOS Device Characterisation and Parameter Extraction: 
 
 ##  Project Overview
 This project focuses on NMOS transistor characterization and compact modeling using LTspice. Key device parameters were extracted from simulated I–V characteristics and compared with theoretical expectations.

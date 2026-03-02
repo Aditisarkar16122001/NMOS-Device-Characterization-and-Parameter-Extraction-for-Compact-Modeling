@@ -40,12 +40,12 @@ This project focuses on NMOS transistor characterization and compact modeling us
 |----------|-------|------|
 | Threshold Voltage (Vth) | ~1.86 V | From √Id vs Vgs |
 | gm | 7.09e-4 S | From slope at VGS = 3V |
-| gds | Extracted | From Id–Vds slope |
+| gds | 1.017e-05 S | From Id–Vds slope |
 | λ (Channel length modulation) | ~0.022 V⁻¹ | From saturation region |
 | ro | ~98.7 kΩ | ro = 1/gds |
 | Intrinsic Gain (gm·ro) | ~70 | Analog performance metric |
-| Subthreshold slope | 122 mV/dec | Non-ideal behavior |
-| DIBL | 30 mV/V | Short-channel effect |
+| Subthreshold slope | ~122 mV/dec | Non-ideal behavior |
+| DIBL | ~30 mV/V | Short-channel effect |
 
 ---
 

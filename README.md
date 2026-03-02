@@ -39,7 +39,7 @@ This project focuses on NMOS transistor characterization and compact modeling us
 | Parameter | Value | Notes |
 |----------|-------|------|
 | Threshold Voltage (Vth) | ~1.86 V | From √Id vs Vgs (VDS=5V) |
-| gm | 7.09e-4 S | From slope at VGS = 3V |
+| gm | 7.09e-4 S | From Id vs VGS slope at VGS = 3V |
 | gds | 1.017e-05 S | From Id–Vds slope |
 | λ (Channel length modulation) | ~0.022 V⁻¹ | From saturation region |
 | ro | ~98.7 kΩ | ro = 1/gds |

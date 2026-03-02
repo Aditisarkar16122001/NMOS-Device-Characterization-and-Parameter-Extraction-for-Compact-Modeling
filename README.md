@@ -108,7 +108,7 @@ From Id vs VGS graph:
 
 ### gds Extraction:
 From ID vs VDS graph for VGS = 3V , VDS = 5V
-$g_{ds} = \frac{dI_D}{V_{DS}} = 1.01674231701e-05 $S
+$g_{ds} = \frac{dI_D}{V_{DS}}$ = 1.01674231701e-05 S
 ![gds](https://github.com/Aditisarkar16122001/NMOS-Device-Characterization-and-Parameter-Extraction-for-Compact-Modeling/blob/main/gds.png)
 
 --------
